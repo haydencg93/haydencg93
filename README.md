@@ -1,26 +1,34 @@
-# Hi there, I'm Hayden Gamble 👋[cite: 1]
+# Hi there, I'm Hayden Gamble!
 
-I am a dedicated **Computer Science and Engineering major** at the **University of Iowa**[cite: 1]. I have a strong passion for creating innovative software solutions, and my journey spans from high school programming to professional software development[cite: 1].
+I am a dedicated **Computer Science and Engineering major** at the **University of Iowa**. I have a strong passion for creating innovative software solutions, and my journey spans from high school programming to professional software development.
 
-## 🚀 Experience & Achievements
+## Experience & Achievements
 
-* **Software Development Intern @ VT Industries** (Summer 2025): Focused on building production-level software solutions[cite: 1].
-* **Competitive Programming:** Competed in 3 national computer science competitions, emphasizing problem-solving speed and algorithmic efficiency[cite: 1].
+* **Catalogd** (Spring and Summer of 2026): [haydencg93.github.io/catalogd](haydencg93.github.io/catalogd)
+    * A comprehensive, serverless media tracking web application that aggregates data from diverse REST APIs (TMDB, OpenLibrary, Last.fm) to provide a unified platform for logging, ranking, and discovering movies, shows, books, and music. Built with a component-driven vanilla JavaScript frontend and a Supabase backend, it features a custom machine learning pipeline utilizing Qdrant and Transformers.js to generate personalized, vector-based recommendations.
 
-## 🛠️ Skills & Technologies
+* **Software Development Intern @ VT Industries** (Summer 2025)
+    * Focused on building production-level software solutions.
+* **Competitive Programming**
+    * Competed in 3 national computer science competitions, emphasizing problem-solving speed and algorithmic efficiency.
 
-**Languages:** 
-Python • Java • C++ • JavaScript • C# • SQL • Linux • Embedded C • Verilog • Embedded Assembly[cite: 1]
+## Skills & Technologies
+**Languages**
+* Python • Java • C++ • JavaScript • C# • SQL • Linux • Embedded C • Verilog • Embedded Assembly
 
-**Tools & Platforms:** 
-GitHub • VSCode • GitHub Pages • .NET • Visual Studio • Git • SFML[cite: 1]
+**Tools & Platforms** 
+* GitHub • VSCode • GitHub Pages • .NET • Visual Studio • Git • SFML
 
-## 📚 Relevant Coursework
+## Relevant Coursework
 
-* **University of Iowa:** Software Security, Computer Architecture and Organization, Embedded Systems, Algorithms, Communication Networks, Database Systems, Introduction to Software Design, Computers in Engineering[cite: 1].
-* **Additional Studies:** Introduction to Java (WITCC), AP Computer Science Principles & Cybersecurity (SBL High School)[cite: 1].
+* **University of Iowa**
+    * Software Security, Computer Architecture and Organization, Embedded Systems, Algorithms, Communication Networks, Database Systems, Introduction to Software Design, Computers in Engineering.
 
-## 📫 Let's Connect
+* **Additional Studies**
+    * Introduction to Java (WITCC), AP Computer Science Principles & Cybersecurity (SBL High School).
 
-* **LinkedIn:** [linkedin.com/in/haydencg93](https://linkedin.com/in/haydencg93)[cite: 1]
-* **Portfolio & Projects:** [Check out my work here](https://github.com/haydencg93/haydencg93.github.io/tree/main/projects)[cite: 1]
+## Let's Connect
+
+* **LinkedIn:** [linkedin.com/in/haydencg93](https://linkedin.com/in/haydencg93)
+
+* **Portfolio & Projects:** [Check out my work here](https://github.com/haydencg93/haydencg93.github.io/tree/main/projects)
