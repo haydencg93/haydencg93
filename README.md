@@ -31,4 +31,4 @@ I am a dedicated **Computer Science and Engineering major** at the **University 
 
 * **LinkedIn:** [linkedin.com/in/haydencg93](https://linkedin.com/in/haydencg93)
 
-* **Portfolio & Projects:** [Check out my work here](https://github.com/haydencg93/haydencg93.github.io/tree/main/projects)
+* **Portfolio & Projects:** [Check out my work here](https://haydencg93.github.io/)
