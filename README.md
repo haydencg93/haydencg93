@@ -4,7 +4,7 @@ I am a dedicated **Computer Science and Engineering major** at the **University 
 
 ## Experience & Achievements
 
-* **Catalogd** (Spring and Summer of 2026): [haydencg93.github.io/catalogd](haydencg93.github.io/catalogd)
+* **Catalogd** (Spring and Summer of 2026): [haydencg93.github.io/catalogd](https://haydencg93.github.io/catalogd)
     * A comprehensive, serverless media tracking web application that aggregates data from diverse REST APIs (TMDB, OpenLibrary, Last.fm) to provide a unified platform for logging, ranking, and discovering movies, shows, books, and music. Built with a component-driven vanilla JavaScript frontend and a Supabase backend, it features a custom machine learning pipeline utilizing Qdrant and Transformers.js to generate personalized, vector-based recommendations.
 
 * **Software Development Intern @ VT Industries** (Summer 2025)
