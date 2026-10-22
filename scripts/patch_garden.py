@@ -50,10 +50,13 @@ frog = '''def gardener(th, start, end, dur):
             if key in colors:
                 pix.append(f'<rect x="{(xx - 7)*1.55:.2f}" y="{(yy - 13)*1.55:.2f}" '
                            f'width="1.55" height="1.55" fill="{colors[key]}"/>')
-    # Small swinging field lantern attached beside the backpack.
-    lantern = (f'<rect x="10.3" y="-13" width="2.6" height="3.1" fill="{brown}"/>'
-               f'<rect x="10.8" y="-12.4" width="1.6" height="1.8" fill="{glow}"/>'
-               f'<rect x="10.8" y="-13.8" width="1.6" height=".9" fill="{ivory}"/>')
+    # Small field lantern held close to Miso's front arm so it reads as hand-held, not floating.
+    lantern = (
+        f'<line x1="4.2" y1="-9.4" x2="5.7" y2="-8.0" stroke="{brown}" stroke-width=".7" stroke-linecap="round"/>'
+        f'<rect x="5.2" y="-8.9" width="2.4" height="2.9" fill="{brown}"/>'
+        f'<rect x="5.65" y="-8.35" width="1.5" height="1.7" fill="{glow}"/>'
+        f'<rect x="5.65" y="-9.6" width="1.5" height=".7" fill="{ivory}"/>'
+    )
     return (f'<g class="walk" {walk}>'
             '<ellipse cx="0" cy="2" rx="9.5" ry="2.1" fill="#000" opacity=".20"/>'
             f'<g class="turn" style="animation-duration:{dur:.0f}s">'

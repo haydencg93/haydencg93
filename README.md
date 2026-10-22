@@ -2,7 +2,7 @@
 <p align="center"><img src="./assets/arcade-header.svg" width="100%" alt="Hayden Arcade Greenhouse pixel landscape"></p>
 
 <p align="center"><strong>Hayden Gamble</strong> · Computer Science & Engineering @ University of Iowa</p>
-<p align="center">Software engineering · applied ML · embedded systems · creative problem-solving</p>
+<p align="center">Software Engineering · Applied ML · Embedded Systems · Creative Problem-Solving</p>
 <p align="center"><a href="https://haydencg93.github.io/">Portfolio</a> · <a href="https://haydencg93.github.io/catalogd/">Catalogd</a> · <a href="https://www.linkedin.com/in/haydencg93/">LinkedIn</a></p>
 
 ### `> PLAYER_01 / ABOUT`
