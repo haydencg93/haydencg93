@@ -47,11 +47,13 @@ Git · GitHub · VS Code · Visual Studio · .NET · SFML · GitHub Pages
 ### `> MISO'S GARDEN / REAL CONTRIBUTIONS`
 
 <p align="center">
+  
+<p align="center">
   <picture>
-    <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/garden-mobile-dark.svg?v=6f655ab461a2" />
-    <source media="(max-width: 600px)" srcset="./assets/garden-mobile-light.svg?v=25292b617307" />
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/garden-dark.svg?v=419148fe9db6" />
-    <img src="./assets/garden-light.svg?v=ee7012c63a14" width="100%" alt="Isometric contribution garden, with an animated frog Miso exploring the landscape" />
+    <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/garden-mobile-dark.svg" />
+    <source media="(max-width: 600px)" srcset="./assets/garden-mobile-light.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/garden-year-dark.svg" />
+    <img src="./assets/garden-year-light.svg" width="100%" alt="Miso's contribution garden for the current year" />
   </picture>
 </p>
 
