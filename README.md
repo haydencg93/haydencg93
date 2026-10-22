@@ -48,10 +48,10 @@ Git · GitHub · VS Code · Visual Studio · .NET · SFML · GitHub Pages
 
 <p align="center">
   <picture>
-    <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/garden-mobile-dark.svg?v=ee6cc5b51bad" />
-    <source media="(max-width: 600px)" srcset="./assets/garden-mobile-light.svg?v=ee6cc5b51bad" />
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/garden-dark.svg?v=ee6cc5b51bad" />
-    <img src="./assets/garden-light.svg?v=ee6cc5b51bad" width="100%" alt="Isometric contribution garden, with an animated frog Miso exploring the landscape" />
+    <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/garden-mobile-dark.svg?v=6f655ab461a2" />
+    <source media="(max-width: 600px)" srcset="./assets/garden-mobile-light.svg?v=25292b617307" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/garden-dark.svg?v=419148fe9db6" />
+    <img src="./assets/garden-light.svg?v=ee7012c63a14" width="100%" alt="Isometric contribution garden, with an animated frog Miso exploring the landscape" />
   </picture>
 </p>
 
