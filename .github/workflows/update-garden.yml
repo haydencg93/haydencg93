@@ -1,4 +1,4 @@
-name: Grow the contribution garden
+name: Grow the Miso garden
 
 on:
   workflow_dispatch:
@@ -16,17 +16,21 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Regenerate profile SVG assets
+        run: python scripts/pixel_art.py
       - name: Generate garden from GitHub contributions
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_USERNAME: ${{ github.repository_owner }}
         run: python scripts/grow_garden.py
+      - name: Refresh README garden URL
+        run: python scripts/sync_garden_readme.py
       - name: Commit refreshed art
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add assets/contribution-garden.svg
+          git add README.md assets
           if ! git diff --cached --quiet; then
-            git commit -m '🌱 grow the contribution garden'
+            git commit -m '🌱 update Miso garden'
             git push
           fi

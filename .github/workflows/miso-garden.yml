@@ -1,0 +1,50 @@
+name: Grow Miso's Garden Graph
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 5 * * *'
+    - cron: '47 17 * * *'
+permissions:
+  contents: write
+jobs:
+  garden:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out profile
+        uses: actions/checkout@v4
+      - name: Check out original Garden Graph
+        uses: actions/checkout@v4
+        with:
+          repository: Shagshag/garden-graph
+          path: upstream
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Draw Miso in the original isometric garden
+        run: python scripts/patch_garden.py upstream/render.py
+      - name: Build six views with real contributions
+        env:
+          GITHUB_LOGIN: haydencg93
+          GARDEN_CLIMATE: temperate-north
+          GARDEN_LANG: en
+          GARDEN_YEARS: '5'
+          GITHUB_TOKEN: ${{ secrets.GH_STATS_TOKEN || secrets.GITHUB_TOKEN }}
+        working-directory: upstream
+        run: |
+          python fetch.py
+          python render.py
+      - name: Publish generated SVG views
+        run: |
+          mkdir -p assets
+          cp upstream/assets/garden*.svg assets/
+          python scripts/sync_garden_readme.py
+      - name: Commit only profile artifacts
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add README.md assets/garden*.svg
+          if ! git diff --cached --quiet; then
+            git commit -m '🌱 Grow Miso Garden Graph'
+            git push
+          fi
