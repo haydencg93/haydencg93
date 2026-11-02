@@ -50,10 +50,10 @@ Git · GitHub · VS Code · Visual Studio · .NET · SFML · GitHub Pages
   
 <p align="center">
   <picture>
-    <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/garden-mobile-dark.svg?v=498f2d567fcd" />
-    <source media="(max-width: 600px)" srcset="./assets/garden-mobile-light.svg?v=69a9342360c9" />
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/garden-year-dark.svg?v=b7bf015fbb87" />
-    <img src="./assets/garden-year-light.svg?v=8ccc771607ab" width="100%" alt="Miso's contribution garden for the current year" />
+    <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/garden-mobile-dark.svg?v=4898bb7cb266" />
+    <source media="(max-width: 600px)" srcset="./assets/garden-mobile-light.svg?v=9ccf6250fc8c" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/garden-year-dark.svg?v=c2adb73fa6f3" />
+    <img src="./assets/garden-year-light.svg?v=312e71eb4a10" width="100%" alt="Miso's contribution garden for the current year" />
   </picture>
 </p>
 
